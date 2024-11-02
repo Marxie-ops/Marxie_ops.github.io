@@ -1,0 +1,29 @@
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the images */
+    gap: 20px; /* Space between the images */
+}
+
+.banner-image {
+    width: 45%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.image.object img {
+    width: 50%; /* Set the desired width percentage */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100px; /* Set a maximum width if needed */
+    object-fit: contain; /* Scale the image to fit within the defined width */
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the image within its parent */
+}
+
+body {
+    background-image: url('images/plain color.jfif'); /* Path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
